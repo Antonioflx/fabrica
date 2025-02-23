@@ -1,0 +1,97 @@
+#secondMenu-smallScreen {
+	width: 150px;
+	height: 100vh;
+	/* background-color: rgb(125, 125, 240); */
+	background-color: #237747; /* é -> Cor (design) n é comigo), sei lá qual fica bom ) */
+	padding: 1rem;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0;
+
+	transform: translateX(-100%);
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+	z-index: 20;
+}
+
+@keyframes slideIn_show {
+	from {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.show-secondMenu {
+	animation: slideIn_show 0.3s ease-in-out forwards;
+}
+
+@keyframes slideIn_close {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+}
+
+.close-secondMenu {
+	animation: slideIn_close 0.3s ease-in-out forwards;
+}
+
+#divHas-secondMenu-txtDev {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	line-height: 2;
+}
+
+.closeMenu {
+	cursor: pointer;
+	transform: translateX(10px);
+}
+
+.closeMenu:hover {
+	text-shadow: 0px 1px 1px rgba(75, 75, 75, 0.295);
+}
+
+.divHas-icon-and-a {
+	gap: 1rem;
+	cursor: pointer;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.divHas-icon-and-a:hover {
+	/* background-color: rgba(96, 96, 185, 0.5); */
+	background-color: rgba(105, 146, 122, 0.281);
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px rgba(75, 75, 75, 0.295);
+}
+
+.divHas-icon-and-a span {
+	padding-left: 10px;
+}
+
+.divHas-txtCantFind-img img {
+	display: none;
+}
+
+#hasLinks-a {
+	display: none;
+}
+
+.padd-div {
+	flex-flow: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,9 @@
+@media screen and (min-width: 590px) {
+	.divHas-allinfo {
+		width: 370px;
+	}
+
+	.divHas-btn {
+		width: 80%;
+	}
+}

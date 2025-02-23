@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Calculadora</title>
+		<link rel="stylesheet" href="./style/main.css" />
+	</head>
+	<body>
+		<div id="container-principal">
+			<div id="divHas-princ-h1">
+				<h1>Calculadora</h1>
+			</div>
+			<div id="divHas-form">
+				<form id="form">
+					<div>
+						<div class="div-flex">
+							<label for="first-number" class="txtLabel">
+								1º Num:
+							</label>
+							<input
+								type="number"
+								name="number1"
+								id="first-number"
+								class="input"
+								placeholder="Number 1"
+								step="0.01"
+								required
+							/>
+						</div>
+						<div class="div-option">
+							<label for="options-operation">Operação:</label>
+							<select name="operacoes" id="options-operation">
+								<option value="+">+</option>
+								<option value="-">-</option>
+								<option value="*">×</option>
+								<option value="/">÷</option>
+							</select>
+						</div>
+						<div class="div-flex">
+							<label for="second-number" class="txtLabel">
+								2º Num:
+							</label>
+							<input
+								type="number"
+								name="number2"
+								id="second-number"
+								class="input"
+								placeholder="Number 2"
+								step="0.01"
+								required
+							/>
+						</div>
+						<div id="divHas-btn-send">
+							<button type="submit" class="btn-submit">=</button>
+						</div>
+					</div>
+
+					<div id="divHas-result-and-historic">
+						<div id="divHas-result-inpt">
+							<label for="inp-resultado"> Resultado =</label>
+							<input
+								type="text"
+								name="resultado"
+								id="inp-resultado"
+								style="width: 100px"
+								class="input"
+								placeholder="0"
+							/>
+						</div>
+
+						<div class="division"></div>
+						<div id="divHas-historico">
+							<span> Histórico </span>
+							<ul id="list-historico">
+								<div class="divHas-liResult">
+									<span class="spn-result"> ... </span>
+
+									<span class="spn-result"> ...</span>
+
+									<span class="spn-result"> ... </span>
+
+									<span class="spn-result"> ... </span>
+
+									<span class="spn-result"> ... </span>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="./script/main.js" type="module"></script>
+	</body>
+</html>

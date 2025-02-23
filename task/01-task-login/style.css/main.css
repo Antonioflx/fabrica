@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(59, 59, 59);
+}
+
+#container-principal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.divHas-allinfo {
+	background-color: black;
+	border-radius: 15px;
+	width: 310px;
+
+	height: 400px;
+
+	display: flex;
+	flex-flow: column;
+	gap: 1rem;
+}
+
+.txtLabel {
+	color: white;
+	display: flex;
+	width: 235px;
+	padding-bottom: 5px;
+
+	text-shadow: 0px 1px 1px rgba(230, 187, 109, 0.288);
+}
+
+.div-flex {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+
+	padding-left: 1rem;
+}
+
+.inpt {
+	width: 220px;
+	height: 25px;
+	border-radius: 5px;
+	border: none;
+
+	padding: 5px;
+}
+
+.inpt:focus {
+	outline: 1px solid rgba(255, 145, 0, 0.555);
+}
+
+button:hover {
+	background-color: rgb(101, 179, 101);
+}
+
+.divHas-spnIcon-input {
+	display: flex;
+	align-items: center;
+}
+
+.spn-icon {
+	color: rgb(12, 12, 12);
+	font-size: 15px !important;
+	transform: translateX(-20px);
+}
+
+.divHas-btn {
+	width: 86%;
+	align-items: end;
+}

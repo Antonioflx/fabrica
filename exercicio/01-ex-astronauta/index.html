@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Testando</title>
+		<link rel="stylesheet" href="./style.css/main.css" />
+		<link rel="stylesheet" href="./style.css/styleFirstMenu.css" />
+		<link rel="stylesheet" href="./style.css/styleSecondMenu.css" />
+		<link rel="stylesheet" href="./style.css/media.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+		/>
+	</head>
+	<body>
+		<div id="container-principal">
+			<div class="padd-div" id="divHas-nav">
+				<nav id="nav-link">
+					<span id="txtDev">Dev.</span>
+					<span class="material-symbols-outlined hamburguer">
+						menu
+					</span>
+					<div id="hasLinks-a">
+						<a href="#" class="hidden link-firstMenu">Home</a>
+						<a href="#" class="hidden link-firstMenu">About</a>
+						<a href="#" class="hidden link-firstMenu">Contact</a>
+						<a href="#" class="hidden link-firstMenu">Portfolio</a>
+					</div>
+				</nav>
+			</div>
+
+			<div id="secondMenu-smallScreen">
+				<nav class="navHas-smallScreen">
+					<div id="divHas-secondMenu-txtDev">
+						<span id="txtDev">Dev.</span>
+						<span class="material-symbols-outlined closeMenu">
+							close
+						</span>
+					</div>
+					<div class="divHas-icon-and-a">
+						<span class="material-symbols-outlined"> home </span>
+						<a href="#" class="link-smallScreen">Home</a>
+					</div>
+					<div class="divHas-icon-and-a">
+						<span class="material-symbols-outlined"> group </span>
+						<a href="#" class="link-smallScreen">About</a>
+					</div>
+					<div class="divHas-icon-and-a">
+						<span class="material-symbols-outlined">
+							contact_support
+						</span>
+						<a href="#" class="link-smallScreen">Contact</a>
+					</div>
+					<div class="divHas-icon-and-a">
+						<span class="material-symbols-outlined">
+							work_history
+						</span>
+						<a href="#" class="link-smallScreen">Portfolio</a>
+					</div>
+				</nav>
+			</div>
+
+			<div id="divHas-allInfo">
+				<div class="padd-div">
+					<div class="divHas-txtError">
+						<p id="txtError">Error 404</p>
+					</div>
+					<div class="pad">
+						<div>
+							<div class="divHas-txtCantFind-img">
+								<p id="txt-cantFind">
+									We can't seem to find the page you are looking for
+								</p>
+								<div class="img-astronauta2">
+									<picture>
+										<source
+											media="(max-width: 600px)"
+											srcset="img/Erro-telaPequena.png"
+											type="image/apng"
+										/>
+
+										<img
+											src="img/Erro-telaMedia.png"
+											alt="imagem astrounauta"
+										/>
+									</picture>
+								</div>
+							</div>
+							<button class="btn-home showBtn-500px">
+								<a href="#" class="a-in-btn">Home</a>
+							</button>
+						</div>
+						<div class="pad divHas-btn-and-img">
+							<button class="btn-home showBtn-320px">
+								<a href="#" class="a-in-btn">Home</a>
+							</button>
+							<div class="img-astronauta">
+								<img
+									src="./img/Erro-telaPequena.png"
+									alt="img-astronauta-error"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="blur-whenOpenMenu"></div>
+		<script src="./script/main.js"></script>
+	</body>
+</html>
