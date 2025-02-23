@@ -30,8 +30,8 @@ body {
 form {
 	border: 1px solid rgba(0, 0, 0, 0.24);
 	border-radius: 10px;
-	width: 250px;
-	height: 400px;
+	width: 300px;
+	height: 500px;
 	padding: 1rem;
 
 	box-shadow: 0px 1px 3px rgba(49, 48, 48, 0.178);
@@ -47,7 +47,7 @@ form {
 }
 
 .div-option {
-	width: 200px;
+	width: 250px;
 	padding: 0.3rem 0;
 
 	display: flex;
@@ -55,8 +55,11 @@ form {
 	justify-content: space-between;
 }
 
+label {
+	font-size: 20px;
+}
+
 .div-option label {
-	font-size: 15px;
 	padding-right: 25px;
 }
 
@@ -64,17 +67,25 @@ form {
 	padding-right: 10px;
 }
 
+.spn-historico {
+	font-size: 25px;
+}
+
 .input {
 	padding: 4px;
-	height: 15px;
-	width: 120px;
-	font-size: 8px;
+	height: 20px;
+	width: 160px;
+	font-size: 13px;
 	border-radius: 5px;
 	border: none;
 	outline: 1px solid rgba(179, 166, 166, 0.637);
 }
 
 #options-operation {
+	font-size: 18px;
+	width: 50px;
+	text-align: center;
+
 	border: none;
 	border-radius: 5px;
 	outline: 1px solid rgba(179, 166, 166, 0.637);
@@ -95,12 +106,12 @@ button {
 	color: black;
 	background-color: rgba(226, 197, 162, 0.548);
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 18px;
 
 	border: none;
 	border-radius: 7px;
 
-	width: 30px;
+	width: 50px;
 	height: 20px;
 }
 
@@ -109,7 +120,7 @@ button:hover {
 }
 
 #divHas-btn-send {
-	width: 185px;
+	width: 235px;
 	display: flex;
 	padding-bottom: 1rem;
 	align-items: center;
@@ -133,7 +144,7 @@ button:hover {
 }
 
 #divHas-result-inpt input {
-	width: 95px !important;
+	width: 130px !important;
 	text-align: center;
 }
 
@@ -145,10 +156,10 @@ button:hover {
 }
 
 #list-historico span {
-	padding-right: 2rem;
+	padding-right: 1rem;
 	padding-left: 0.3rem;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .divHas-liResult {

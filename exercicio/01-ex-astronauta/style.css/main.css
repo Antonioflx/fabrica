@@ -103,7 +103,15 @@ a {
 	}
 }
 
+/* desfoque na parte de trás */
 .blur-whenOpenMenu {
+	/* 
+		aqui é a div que coloquei para ficar atrás do menu secundario
+		utilizando z-index:
+
+		o menu secundário está com z-index: 20
+		
+	*/
 	position: fixed;
 	top: 0;
 	left: 0;
