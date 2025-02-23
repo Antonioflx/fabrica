@@ -42,8 +42,6 @@
     <li>
       <b>Exercício-Calculadora</b> ->
       <a href="https://antonioflx.github.io/fabrica/exercicio/02-ex-calculadora/index.html">Calculadora </a>
-
-      
     </li>
   </ol>
 </div>
