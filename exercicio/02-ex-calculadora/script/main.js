@@ -24,9 +24,8 @@ const operation = {
 };
 
 const organizeArray = (txtResultado) => {
-	arrayResult.length < 5
-		? arrayResult.unshift(txtResultado)
-		: (arrayResult.pop(), arrayResult.unshift(txtResultado));
+	arrayResult.pop();
+	arrayResult.unshift(txtResultado);
 };
 
 const allSpnResult = document.querySelectorAll(".spn-result");
