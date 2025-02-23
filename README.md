@@ -23,16 +23,25 @@
 <div>
   <p>Resolvendo os exercícios da fábrica.</p>
     <div>
-      <b></b>File (task)</b> <span>=== Os desafios para entregar. </span>
+      <b>File (task)</b> <span>=== Os desafios para entregar. </span>
     </div>
-  <ul>
+  <ol>
     <li>
-      1 Exercício -> <a href="https://antonioflx.github.io/fabrica/task/01-task-login/index.html">Link</a>
+      <b>Task-Login </b> -> <a href="https://antonioflx.github.io/fabrica/task/01-task-login/index.html">Login</a>
     </li>
-  </ul>
-  <li>
-    File (exercicio) === Exercícios...
-  </li>
-  </ul>
+  </ol>
+
+  <div>
+    <b>File (exercicio)</b> <span>=== Exercícios.</span>
+  </div>
+  <ol>
+    <li>
+      <b>Exercício-Astronauta</b> -> <a href="https://antonioflx.github.io/fabrica/exercicio/01-ex-astronauta/index.html">Astronauta</a>
+    </li>
+
+    <li>
+    <b>Exercício-Calculadora</b> -> <a> </a>
+    </li>
+  </ol>
 </div>
 
