@@ -1,0 +1,49 @@
+@media screen and (min-width: 700px) {
+	form {
+		width: 600px;
+		height: 550px;
+	}
+
+	#divHas-allInfo {
+		display: flex;
+	}
+
+	#labelForOptions {
+		display: none;
+	}
+
+	.div-flex {
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.div-option {
+		justify-content: center;
+		height: 100px;
+	}
+
+	#divHas-btn-send {
+		justify-content: space-around;
+		padding-bottom: 0;
+	}
+
+	.input {
+		width: 180px;
+	}
+
+	#divHas-result-inpt input {
+		width: 180px !important;
+	}
+
+	.division {
+		margin: 25px 0px;
+	}
+
+	#divHas-historico span {
+		font-size: 25px;
+	}
+
+	.divHas-liResult {
+		width: 550px;
+	}
+}

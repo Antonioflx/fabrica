@@ -7,6 +7,7 @@ const criarTxt = (arrayResult) => {
 		indice++;
 	});
 };
+export default criarTxt;
 
 /*
 
@@ -26,5 +27,3 @@ const criarTxt = (arrayResult) => {
     li.4 -> resultado anterior do li.3
     li.5 -> resultado anterior do li.4
 */
-
-export default criarTxt;
