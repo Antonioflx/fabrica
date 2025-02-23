@@ -22,10 +22,14 @@
 
 <div>
   <p>Resolvendo os exercícios da fábrica.</p>
+    <div>
+      <b></b>File (task)</b> <span>=== Os desafios para entregar. </span>
+    </div>
   <ul>
     <li>
-      File (task) === Os desafios para entregar. 
+      1 Exercício -> <a href="https://antonioflx.github.io/fabrica/task/01-task-login/index.html">Link</a>
     </li>
+  </ul>
   <li>
     File (exercicio) === Exercícios...
   </li>
