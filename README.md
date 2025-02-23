@@ -37,11 +37,13 @@
   <ol>
     <li>
       <b>Exercício-Astronauta</b> -> 
-      <a href="https://antonioflx.github.io/fabrica/exercicio/01-ex-astronauta/index.html">Astronauta</a>
+      <a href="https://antonioflx.github.io/fabrica/exercicio/01-ex-  astronauta/index.html">Astronauta</a>
     </li>
     <li>
       <b>Exercício-Calculadora</b> ->
-      <a href="https://antonioflx.github.io/fabrica/exercicio/01-ex-astronauta/index.html">Calculadora </a>
+      <a href="https://antonioflx.github.io/fabrica/exercicio/02-ex-calculadora/index.html">Calculadora </a>
+
+      
     </li>
   </ol>
 </div>
